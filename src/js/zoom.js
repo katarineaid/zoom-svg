@@ -27,8 +27,8 @@ export default function zoomFunc() {
 
   const zoomer = svg
   .append("rect")
-  .attr("width", width)
-  .attr("height", height)
+  .attr("width", '100%')
+  .attr("height", '100%')
   .style("fill", "none")
   .style("pointer-events", "all")
   .call(zoomListener);
